@@ -1,5 +1,7 @@
 ## Project Title: `Job Portal`
 
+### Preview link 
+https://job-portal-lac-seven.vercel.app/
 
 ### Access Credentials:
 
