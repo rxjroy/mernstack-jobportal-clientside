@@ -29,7 +29,7 @@ const EditProfile = () => {
     //     queryKey: ["profile"],
     //     queryFn: async () => {
     //         const response = await axios.get(
-    //             `http://localhost:3000/api/v1/users/${id}`
+    //             `https://mernstack-jobportal-server.vercel.app/api/v1/users/${id}`
     //         );
     //         return response.data;
     //     },
@@ -60,7 +60,7 @@ const EditProfile = () => {
             }
 
             const response = await axios.patch(
-                `http://localhost:3000/api/v1/users`,
+                `https://mernstack-jobportal-server.vercel.app/api/v1/users`,
                 updateUser,
                 {
                     withCredentials: true,

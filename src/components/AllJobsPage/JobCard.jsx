@@ -33,7 +33,7 @@ const JobCard = ({ job }) => {
         };
         try {
             const response = await postHandler({
-                url: "http://localhost:3000/api/v1/application/apply",
+                url: "https://mernstack-jobportal-server.vercel.app/api/v1/application/apply",
                 body: appliedJob,
             });
             Swal.fire({
